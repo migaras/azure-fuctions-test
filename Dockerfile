@@ -24,8 +24,4 @@ RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash \
     && chmod +x /usr/local/bin/azcopy \
     && rm -f azcopy.tar.gz 
 
-#COPY ssh /root/.ssh
-#RUN chmod 700 /root/.ssh \
-#    && chmod 600 /root/.ssh/id_rsa
-
 
